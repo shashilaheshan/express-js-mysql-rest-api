@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/add
+Content-Type: application/json
+
+{
+    "name":"heshanpw",
+    "email":"heshamp@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/4
+
+###
+POST http://localhost:3000/api/update/2
+Content-Type: application/json
+
+{
+    "name":"heshan2",
+    "email":"hesha2@gmail.com"
+}
+
+###
+GET http://localhost:3000/api/delete/2
